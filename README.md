@@ -7,8 +7,7 @@ Keyboard Layouter is a plugin for [KiCad](http://kicad-pcb.org/)(pcbnew).
 This plugin places switch footprints in the location specified by JSON of
 [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/).
 
-I have confirmed that it works with pcbnew version (7.0.0) release build on Windows.\
-8.0.0 is probably fine.
+Confirmed to work with KiCad versions 7, 8, and 9.   
 
 ![demo](https://raw.githubusercontent.com/yskoht/keyboard-layouter/images/demo.gif)
 
