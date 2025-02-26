@@ -62,7 +62,7 @@ class KeyboardLayouter(pcbnew.ActionPlugin):
         self.name = 'Keyboard Layouter Custom(added LEDs)'
         self.category = 'Modify PCB'
         self.description = 'Move parts to the position specified by json'
-        self.__version__ = '0.1.3'
+        self.__version__ = '0.1.4'
 
     def Run(self):
         self.__gui()
