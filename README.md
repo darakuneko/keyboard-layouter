@@ -12,7 +12,7 @@ Confirmed to work with KiCad versions 7, 8, and 9.
 ![demo](https://raw.githubusercontent.com/yskoht/keyboard-layouter/images/demo.gif)
 
 ## Install
-Open it from the PCB Editor menu.
+Open the folder from the PCB Editor menu.
 
 ## Usage
 
