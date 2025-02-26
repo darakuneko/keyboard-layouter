@@ -12,12 +12,7 @@ Confirmed to work with KiCad versions 7, 8, and 9.
 ![demo](https://raw.githubusercontent.com/yskoht/keyboard-layouter/images/demo.gif)
 
 ## Install
-
-Download [keyboard_layouter.py](https://github.com/yskoht/keyboard-layouter/blob/master/keyboard_layouter.py) and put it to the following directory:
-
-- Windows: `%APPDATA%/Roaming/kicad/scripting/plugins`
-- macOS: `~/Library/Application Support/kicad/scripting/plugins` or `~/Library/Preferences/kicad/scripting/plugins`
-- Linux: `~/.kicad/scripting/plugins` or `~/.kicad_plugins`
+Open it from the PCB Editor menu.
 
 ## Usage
 
