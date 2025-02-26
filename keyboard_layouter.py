@@ -340,7 +340,7 @@ class KeyboardLayouter(pcbnew.ActionPlugin):
                 panel_offset_y_mm.SetSizer(layout_offset_y_mm)
 
                 checkbox_flip = wx.CheckBox(self, wx.ID_ANY, 'Flip')
-                set_initial_checkbox(checkbox_flip, False, params['diode']['move'])
+                set_initial_checkbox(checkbox_flip, params['diode']['move'], params['diode']['flip'])
                 checkbox_flip.Bind(wx.EVT_CHECKBOX, checkbox_flip_handler)
 
                 layout = wx.BoxSizer(wx.VERTICAL)
@@ -403,7 +403,7 @@ class KeyboardLayouter(pcbnew.ActionPlugin):
                 panel_offset_y_mm.SetSizer(layout_offset_y_mm)
 
                 checkbox_flip = wx.CheckBox(self, wx.ID_ANY, 'Flip')
-                set_initial_checkbox(checkbox_flip, False, params['led']['move'])
+                set_initial_checkbox(checkbox_flip, params['led']['move'], params['led']['flip'])
                 checkbox_flip.Bind(wx.EVT_CHECKBOX, checkbox_flip_handler)
 
                 layout = wx.BoxSizer(wx.VERTICAL)
